@@ -1,0 +1,17 @@
+# rule
+- Always check @web.php file
+- Always check the files in database/migrations and database/seeders
+- Suggestions for extending project functionality
+- Always check storage/logs/laravel.log if something doesn't work
+- app/Filament/Resources is a panel for users with roles including admin
+- app/Filament/Blog is a panel for users with roles including blog
+- app/Http/Controllers/* is a place for individual controllers not related to Livewire
+- app/Http/Middleware/* is a place to test everything of the website project
+- app/Livewire/* is a place to write controllers for Livewire pages
+- app/Mail/* is a place to write events to send mail
+- app/Models is a place to store models from sql tablesservers
+- Every function when writing must add log to show log in @laravel.log file
+
+- @apps.php is a place to stoay in @header.blade.php
+
+- When writing a function, always show log in @laravel.log
